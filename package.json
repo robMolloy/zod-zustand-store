@@ -1,6 +1,6 @@
 {
-  "name": "my-library",
-  "version": "1.0.0",
+  "name": "zod-zustand-store",
+  "version": "1.0.1",
   "source": "src/index.js",
   "main": "dist/main.js",
   "scripts": {
