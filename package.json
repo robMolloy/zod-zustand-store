@@ -1,64 +1,23 @@
 {
-  "displayName": "zod-zustand-store",
-  "version": "1.0.2",
-  "license": "MIT",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
-  "engines": {
-    "node": ">=12"
-  },
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
-  },
-  "peerDependencies": {},
-  "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  },
   "name": "zod-zustand-store",
-  "author": "jenkins-x-bot",
-  "module": "dist/zod-zustand-store.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/zod-zustand-store.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/zod-zustand-store.esm.js",
-      "limit": "10 KB"
-    }
-  ],
-  "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.9.2",
-    "@types/lodash": "^4.14.184",
-    "husky": "^5.1.1",
-    "size-limit": "^4.9.2",
-    "tsdx": "^0.14.1",
-    "tslib": "^2.1.0",
-    "typescript": "^4.2.2"
+  "version": "1.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "fuse.js": "^6.6.2",
-    "lodash": "^4.17.21",
-    "lodash-es": "^4.17.21",
-    "zod": "^3.18.0",
-    "zustand": "^4.1.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robMolloy/zod-zustand-store.git"
+  },
+  "keywords": [],
+  "author": "robmolloyntt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robMolloy/zod-zustand-store/issues"
+  },
+  "homepage": "https://github.com/robMolloy/zod-zustand-store#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
   }
 }
