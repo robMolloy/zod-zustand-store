@@ -32,16 +32,16 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "my-library-to-publish",
+  "name": "zod-zustand-store",
   "author": "jenkins-x-bot",
-  "module": "dist/my-library-to-publish.esm.js",
+  "module": "dist/zod-zustand-store.esm.js",
   "size-limit": [
     {
-      "path": "dist/my-library-to-publish.cjs.production.min.js",
+      "path": "dist/zod-zustand-store.cjs.production.min.js",
       "limit": "10 KB"
     },
     {
-      "path": "dist/my-library-to-publish.esm.js",
+      "path": "dist/zod-zustand-store.esm.js",
       "limit": "10 KB"
     }
   ],
